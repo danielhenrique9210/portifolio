@@ -1,22 +1,31 @@
 *{
-    margin: 60;
-    padding: 60;
+    margin: 0;
+    padding: 0;
 }
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(165, 165, 165);
     color: white;
+    }
+h1{
+    text-align: center;
+    color: black;
+    background-color: white;
 }
+p{
+    text-align: center;
+}
+
 strong{
-    color: rgb(8, 245, 245);
+    color: rgb(255, 255, 255);
 }
 .apresentacao_links{
     display: flex;
     justify-content: space-between;
 }
 .apresentacao_links_link{
-background-color: aqua;
+background-color: rgb(149, 149, 149);
 width: 280px;
 text-align: center;
 border-radius: 160px;
@@ -27,3 +36,30 @@ text-decoration: none;
 color: black;
 font-family: 'Montserrat', sans-serif;
 }
+.menu{
+    max-width: 1400px;
+    padding: 1%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+    
+    
