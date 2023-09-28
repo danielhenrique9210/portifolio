@@ -41,10 +41,9 @@ font-family: 'Montserrat', sans-serif;
     padding: 1%;
     margin: 0 auto;
 }
-nav{
+.menu ul{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav ul{
     list-style: none;
