@@ -36,6 +36,7 @@ text-decoration: none;
 color: black;
 font-family: 'Montserrat', sans-serif;
 }
+
 .menu{
     max-width: 1400px;
     padding: 1%;
@@ -45,13 +46,13 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-around;
 }
-nav ul{
+.menu li{
     list-style: none;
+    display: inline-block;
 }
-nav ul li{
-display: inline-block;
-}
-nav ul li a{
+
+.menu a{
+
     padding: 10px 20px;
     text-decoration: none;
     font-size: 25px;
@@ -59,6 +60,9 @@ nav ul li a{
     border-radius: 30px;
     transition: 0.6s;
 }
-
+.menu a:hover{
+    text-decoration: underline;
+    background-color: rgb(76, 70, 70);
+}
     
     
